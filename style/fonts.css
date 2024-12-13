@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'TTTravels-Regular';
+    src: url('../font/TTTravels-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'TTTravels-DemiBold';
+    src: url('../font/TTTravels-DemiBold.woff') format('woff');
+    font-style: bold;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'TTTravels-Bold';
+    src: url('../font/TTTravels-Bold.woff') format('woff');
+    font-style: bold;
+    font-weight: 700;
+}
