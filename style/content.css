@@ -413,6 +413,11 @@ animation: chaoticJump1 6s ease-in-out infinite;
         left: 5%;
         top: 3%;
         z-index: 1;
+        animation: spini1 2s ease-in infinite;
+    }
+    @keyframes spini1 {
+        0% {rotate: 0deg;}
+        100% {rotate: 360deg;}
     }
     .mol2 {
         width: 15vw;
@@ -421,8 +426,12 @@ animation: chaoticJump1 6s ease-in-out infinite;
         top: 30%;
         z-index: 3;
         rotate: -85deg;
+        animation: spini2 1s linear infinite;
     }
-
+    @keyframes spini2 {
+        0% {rotate: 0deg;}
+        100% {rotate: -360deg;}
+    }
     .mol3 {
         width: 7vw;
         height: auto;
@@ -430,17 +439,25 @@ animation: chaoticJump1 6s ease-in-out infinite;
         top: 70%;
         z-index: 1;
         rotate: 55deg;
+        animation: spini3 3s ease-in-out infinite;
     }
-
+    @keyframes spini3 {
+        0% {rotate: 0deg;}
+        100% {rotate: 360deg;}
+    }
     .mol4 {
         width: 5vw;
         height: auto;
         left: 30%;
-        top: 90%;
+        top: 80%;
         z-index: 3;
         rotate: 15deg;
+        animation: spini4 1.5s ease-out infinite;
     }
-
+    @keyframes spini4 {
+        0% {rotate: 0deg;}
+        100% {rotate: -360deg;}
+    }
     .mol5 {
         width: 9vw;
         height: auto;
@@ -448,16 +465,195 @@ animation: chaoticJump1 6s ease-in-out infinite;
         top: 90%;
         z-index: 3;
         rotate: 160deg;
+        animation: spini4 3.5s ease-in-out infinite;
     }
-
+    @keyframes spini4 {
+        0% {rotate: 0deg;}
+        100% {rotate: 360deg;}
+    }
 
     .ball {
         position: absolute;
     }
 
+    .ball1 {
+        width: 9vw;
+        height: auto;
+        left: 13%;
+        top: 40%;
+        z-index: 1;
+        rotate: 10deg;
+        animation: opacity1 3s ease-in infinite;
+    }
+    @keyframes opacity1 {
+        0% {opacity: 1;}
+        50% {opacity: 0;}
+        100% {opacity: 1;}
+    }
 
+    .ball2 {
+        width: 5vw;
+        height: auto;
+        left: 70%;
+        top: 60%;
+        z-index: 3;
+        rotate: 40deg;
+        animation: opacity2 4s ease-in-out infinite;
+    }
+    @keyframes opacity2 {
+        0% {opacity: 0;}
+        50% {opacity: 1;}
+        100% {opacity: 0;}
+    }
+    .ball3 {
+        width: 6vw;
+        height: auto;
+        left: 90%;
+        top: 7%;
+        z-index: 3;
+        rotate: 90deg;
+        animation: opacity3 2.5s ease-in-out infinite;
+    }
+    @keyframes opacity3 {
+        0% {opacity: 1;}
+        50% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+    .ball4 {
+        width: 5vw;
+        height: auto;
+        left: 50%;
+        top: 3%;
+        z-index: 3;
+        rotate: 120deg;
+        animation: opacity4 3s ease-in-out infinite;
+    }
+    @keyframes opacity4 {
+        0% {opacity: 0;}
+        50% {opacity: 1;}
+        100% {opacity: 0;}
+    }
+    .ball5 {
+        width: 11vw;
+        height: auto;
+        left: 90%;
+        top: 90%;
+        z-index: 1;
+        rotate: 20deg;
+        animation: opacity5 3.7s ease-in-out infinite;
+    }
+    @keyframes opacity5 {
+        0% {opacity: 1;}
+        50% {opacity: 0;}
+        100% {opacity: 1;}
+    }
+    .ball6 {
+        width: 4vw;
+        height: auto;
+        left: 50%;
+        top: 99%;
+        z-index: 1;
+        rotate: 70deg;
+        animation: opacity6 5s ease-in-out infinite;
+    }
+    @keyframes opacity6 {
+        0% {opacity: 0;}
+        50% {opacity: 1;}
+        100% {opacity: 0;}
+    }
     .w_e {
         position: absolute;
+    }
+    .w_e1{
+        width: 4vw;
+        height: auto;
+        left: 77%;
+        top: 86%;
+        z-index: 1;
+        animation: bigger1 3s linear infinite ;
+    }
+    @keyframes bigger1 {
+        0% {scale: 1;}
+        50% {scale: 1.3;}
+        100% {scale: 1;}
+    }
+    .w_e2{
+        width: 9vw;
+        height: auto;
+        left: 0%;
+        top: 60%;
+        z-index: 3;
+        animation: bigger2 2s linear infinite;
+    }
+    @keyframes bigger2 {
+        0% {scale: 1;}
+        50% {scale: 0.6;}
+        100% {scale: 1;}
+    }
+    .w_e3{
+        width: 7vw;
+        height: auto;
+        left: 30%;
+        top: 98%;
+        z-index: 3;
+        animation: bigger3 2.5s ease-in infinite ;
+    }
+    @keyframes bigger3 {
+        0% {scale: 1;}
+        50% {scale: 1.2;}
+        100% {scale: 1;}
+    }
+    .w_e4{
+        width: 5vw;
+        height: auto;
+        left: 69%;
+        top: 11%;
+        z-index: 3;
+        animation:  bigger4 4.5s ease-in infinite;
+    }
+    @keyframes bigger4 {
+        0% {scale: 1;}
+        50% {scale: 1.7;}
+        100% {scale: 1;}
+    }
+    .w_e5{
+        width: 3vw;
+        height: auto;
+        left: 40%;
+        top: 30%;
+        z-index: 3;
+        animation: bigger5 3.5s ease-in infinite;
+    }
+    @keyframes bigger5 {
+        0% {scale: 1;}
+        50% {scale: 1.9;}
+        100% {scale: 1;}
+    }
+    .w_e6{
+        width: 6vw;
+        height: auto;
+        left: 60%;
+        top: 50%;
+        z-index: 3;
+        animation: bigger6 1.5s ease-in infinite;
+    }
+    @keyframes bigger6 {
+        0% {scale: 1;}
+        50% {scale: 1.3;}
+        100% {scale: 1;}
+    }
+    .w_e7{
+        width: 9vw;
+        height: auto;
+        left: 40%;
+        top: 55%;
+        z-index: 3;
+        animation: bigger7 2.5s ease-in infinite;
+    }
+    @keyframes bigger7 {
+        0% {scale: 1;}
+        50% {scale: 0.7;}
+        100% {scale: 1;}
     }
 
 
@@ -466,6 +662,7 @@ animation: chaoticJump1 6s ease-in-out infinite;
         width: 100%;
         height: 5vh;
         margin-top: 5vh;
+        align-items: baseline;
         /* overflow: hidden; */
     }
 
@@ -482,12 +679,14 @@ animation: chaoticJump1 6s ease-in-out infinite;
         color: white;
         font-family: 'TTTravels-Regular';
         right: 3%;
+        font-size: 1.5vw;
     }
 
     .text3 {
         position: absolute;
         color: white;
         font-family: 'TTTravels-Regular';
+        font-size: 1vw;
         right: 3%;
-        /* top: 5%; */
+        padding-top: 1.8%;
     }
