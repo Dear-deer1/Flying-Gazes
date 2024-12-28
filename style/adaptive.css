@@ -73,10 +73,17 @@
     .third {
         display: flex;
         position: relative;
-        /* overflow-x: hidden; */
         align-items: center;
         justify-content: center;
         width: 100vw;
-        max-height: 29vh;
+        height: 29vh;
         margin-top: 5vh;
+    }
+    .fg {
+        position: absolute;
+        width: 85%; 
+        height: auto; 
+        top: 10%;
+        z-index: 2;
+        animation: scaling 4s ease-in infinite;
     }
