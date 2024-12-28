@@ -386,14 +386,14 @@ animation: chaoticJump1 6s ease-in-out infinite;
     /* overflow-x: hidden; */
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    min-width: 100vw;
     /* min-height: 29vh; */
-    min-width: 100vh;
+    /* min-height: 100vh; */
     margin-top: 25vh;
 }
 .fg {
     position: absolute;
-    width: 85%; 
+    width: 85vw; 
     height: auto; 
     top: 10%;
     /* left: 10%; */
@@ -662,8 +662,9 @@ animation: chaoticJump1 6s ease-in-out infinite;
 
 
     .footer {
-        position: fixed;
+        position: relative;
         width: 100%;
+        height: auto;
         align-items: baseline;
         /* overflow: hidden; */
     }
