@@ -1,7 +1,72 @@
 @media (min-width: 768px) {
-
- }
- 
- @media (max-width: 767px) {
-
- }
+    .first {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100vw;
+        min-height: 100vh;
+        /* max-height: 200vh; */
+        /* overflow: hidden; */
+    }
+    }
+    @media (max-width: 767px) {
+    .first {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100vw;
+        min-height: 35vh;
+        /* max-height: 200vh; */
+        /* overflow: hidden; */
+    }
+    .second {
+        display: flex;
+        position: relative;
+        /* overflow-x: hidden; */
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        min-height: 29vh;
+        margin-top: 20vh;
+    }
+    .line1 {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        top: -20%;
+        animation: moving1 6s linear infinite;
+    }
+    @keyframes moving1 {
+        0% {transform: translate(0, 0);}
+        50% {transform: translate(-5vw, 0);}
+        70% {scale: 1.2;}
+        100% {transform: translate(0, 0);}
+    }
+    .line2 {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        top: 83%;
+        animation: moving2 6s linear infinite;
+    }
+    @keyframes moving2 {
+        0% {transform: translate(0, 0);}
+        50% {transform: translate(5vw, 0);}
+        70% {scale: 1.2;}
+        100% {transform: translate(0, 0);}
+    }
+    }
+    .third {
+        display: flex;
+        position: relative;
+        /* overflow-x: hidden; */
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        min-height: 29vh;
+        margin-top: 5vh;
+    }
