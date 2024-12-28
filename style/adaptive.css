@@ -9,6 +9,16 @@
         /* max-height: 200vh; */
         /* overflow: hidden; */
     }
+    .third {
+        display: flex;
+        position: relative;
+        /* overflow-x: hidden; */
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        min-height: 100vh;
+        margin-top: 20vh;
+    }
     }
     @media (max-width: 767px) {
     .first {
@@ -67,6 +77,6 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
-        min-height: 29vh;
+        max-height: 29vh;
         margin-top: 5vh;
     }
